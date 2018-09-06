@@ -65,6 +65,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/security" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/security-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/templating" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/translation" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/twig-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/twig-bundle" />
@@ -143,6 +144,7 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/security" />
           <root url="file://$MODULE_DIR$/vendor/symfony/security-bundle" />
           <root url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/templating" />
           <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
           <root url="file://$MODULE_DIR$/vendor/symfony/twig-bridge" />
           <root url="file://$MODULE_DIR$/vendor/symfony/twig-bundle" />
@@ -217,6 +219,7 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/security" />
           <root url="file://$MODULE_DIR$/vendor/symfony/security-bundle" />
           <root url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/templating" />
           <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
           <root url="file://$MODULE_DIR$/vendor/symfony/twig-bridge" />
           <root url="file://$MODULE_DIR$/vendor/symfony/twig-bundle" />

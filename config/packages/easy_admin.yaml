@@ -12,14 +12,17 @@ easy_admin:
         # List the entity class name you want to manage
         Post:
             class: App\Entity\Post
-#
-#            list:
+            label: Post
+
+            list:
 #                fields: ['id']
+                help: "Message"
 
             show:
                 title: '%%entity_label%% (#%%entity_id%%)'
 
             new:
+                help: "Message ICI"
                 fields:
                     - 'title'
                     - { property: 'content', type: 'textarea' }
@@ -34,6 +37,7 @@ easy_admin:
 
         Category:
             class: App\Entity\Category
+            label: Category
             list:
                 title: 'list.%%entity_label%%'
             show:
