@@ -1,0 +1,60 @@
+CREATE A NEW PROJECT:
+
+    > composer create-project symfony/skeleton name_project
+
+--------------------------------------------------------------
+INSTALL BUNDLE with FLEX:
+
+    > composer require name_bundle
+
+--------------------------------------------------------------
+LAUNCH SERVER
+
+    > php -S localhost:8000 -t public/
+
+--------------------------------------------------------------
+CREATE DATABASE
+
+    > php bin/console doctrine:database:create
+
+--------------------------------------------------------------
+SCHEMA CREATE
+
+    > php bin/console doctrine:schema:create
+
+--------------------------------------------------------------
+
+CREATE ENTITY
+
+    > php bin/console make:entity
+
+--------------------------------------------------------------
+MIGRATE ENTITY > CREATE TABLES
+
+    > php bin/console make:migration
+
+--------------------------------------------------------------
+MIGRATE ENTITY > EXECUTE THE MIGRATIONS"'make:entity'". Message: "There are no commands defined in the "make" namespace."
+
+    > php bin/console doctrine:migrations:migrate
+--------------------------------------------------------------
+UPDATE EXISTING ENTITY with CONSOLE
+
+    > php bin/console make:entity
+    > "class name ?" > NAME_ENTITY_I_WANT_UPDATE
+--------------------------------------------------------------
+UPDATE EXISTING ENTITY IN the code
+
+    > php bin/console make:entity --regenerate
+--------------------------------------------------------------
+CREATE A CONTROLLER
+
+    > php bin/console make:controller
+
+
+
+JE VIENS DE CHANGER LES ENTITES POUR MANY_TO_MANY donc voir tuto zero
+
+
+
+@Gedmo\Timestampable(on="create")
