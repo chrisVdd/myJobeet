@@ -4,4 +4,6 @@
 /public/bundles/
 /var/
 /vendor/
+ENTITY_RESUME
+HELP
 ###< symfony/framework-bundle ###
